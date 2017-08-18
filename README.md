@@ -97,7 +97,7 @@ That is to say what are the parts of the document, what role does each part serv
 
 HTML expresses the **structure and semantics** of a document in plain text.
 
-### Elements: I do (10 minutes / 0:20)
+### Elements
 
 ![Parts of an Element](https://mdn.mozillademos.org/files/9347/grumpy-cat-small.png)
 
@@ -228,14 +228,14 @@ Images require two attributes, a `src` with a URL for an image, and an `alt` tag
 
 The url can be any address but generally we want to manage our own assets.
 
-### CSS Rules (5 minutes / 2:05)
+### CSS Rules
 
 CSS styles are a series of **rules** or **rulesets**.
 A rule is a combination of a **selector** and a set of **declarations**.
 
 ![Anatomy of a CSS Ruleset](https://mdn.mozillademos.org/files/9461/css-declaration-small.png)
 
-## Selector (15 minutes / 2:20)
+## Selector
 
 A selector is a pattern used to match element to which the rule should apply.
 As shown this can be an element.
@@ -243,7 +243,7 @@ Very commonly we add `class` or `id` attributes to elements mark for targeting b
 
 Selectors can be combined and related and there are many more types of [selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors).
 
-## Declaration (5 minutes / 2:25)
+## Declaration
 
 A declaration has two parts, a property and a value to which that property should be set.
 In the example above, the property is `color` and the property value is `red`.
