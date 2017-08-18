@@ -47,3 +47,41 @@ If you'd like, you can purchase a domain and then "point" the domain to your Git
 https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
 
 Recommendation: [Namecheap](https://www.namecheap.com/)
+
+## Resources
+
+[Font Awesome](http://fontawesome.io/icons/)
+[Google Fonts](https://fonts.google.com/)
+[Favicon](http://www.favicon-generator.org/)
+
+## Tricks
+
+1. Open links in new tabs:
+
+```HTML
+  <a href="#" target="_blank">HTML Text</a>
+```
+
+2. [W3 School Bootstrap Documentation](https://www.w3schools.com/bootstrap/default.asp)
+
+3. Override default bootstrap CSS with "!important":
+
+  [Order of Specificity](https://css-tricks.com/specifics-on-css-specificity/)
+
+    Consider the following:
+```HTML
+  <p id="thing">Will be RED.</p>
+```
+    With order of specificity in mind, which below will supersede the other?
+```CSS
+  p {
+    color: red !important;
+  }
+  #thing {
+    color: green;
+  }
+```
+
+"!important" will ignore the rules and supersede id.
+
+4. [Resizing images](https://www.w3schools.com/bootstrap/bootstrap_images.asp)
