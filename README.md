@@ -50,9 +50,9 @@ Recommendation: [Namecheap](https://www.namecheap.com/)
 
 ## Resources
 
-[Font Awesome](http://fontawesome.io/icons/)
-[Google Fonts](https://fonts.google.com/)
-[Favicon](http://www.favicon-generator.org/)
+* [Font Awesome](http://fontawesome.io/icons/)
+* [Google Fonts](https://fonts.google.com/)
+* [Favicon](http://www.favicon-generator.org/)
 
 ## Tricks
 
@@ -66,13 +66,16 @@ Recommendation: [Namecheap](https://www.namecheap.com/)
 
 3. Override default bootstrap CSS with "!important":
 
-  [Order of Specificity](https://css-tricks.com/specifics-on-css-specificity/)
+[Order of Specificity](https://css-tricks.com/specifics-on-css-specificity/)
 
-    Consider the following:
+Consider the following:
+
 ```HTML
   <p id="thing">Will be RED.</p>
 ```
-    With order of specificity in mind, which below will supersede the other?
+
+With order of specificity in mind, which below will supersede the other?
+
 ```CSS
   p {
     color: red !important;
@@ -82,6 +85,6 @@ Recommendation: [Namecheap](https://www.namecheap.com/)
   }
 ```
 
-"!important" will ignore the rules and supersede id.
+`!important` will ignore the rules and supersede id.
 
 4. [Resizing images](https://www.w3schools.com/bootstrap/bootstrap_images.asp)
