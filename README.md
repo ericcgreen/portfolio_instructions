@@ -4,6 +4,11 @@ How to create a portfolio website with Bootstrap!
 
 [What is Bootstrap?](http://getbootstrap.com/)
 
+> Bootstrap is a free front-end framework for faster and easier web development
+> Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+> Bootstrap also gives you the ability to easily create responsive designs
+**[source](https://www.w3schools.com/bootstrap/bootstrap_get_started.asp)**
+
 [Demo of common Bootstrap website](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)
 
 [Info about this template](https://startbootstrap.com/template-overviews/stylish-portfolio/)
@@ -52,8 +57,9 @@ Recommendation: [Namecheap](https://www.namecheap.com/)
 
 * [Font Awesome](http://fontawesome.io/icons/)
 * [Google Fonts](https://fonts.google.com/)
+* [HTML Validator](https://validator.w3.org/)
 * [Favicon](http://www.favicon-generator.org/)
-* [HTML validator](https://validator.w3.org/)
+* [Logo Creator](https://www.canva.com/)
 
 ## Tricks
 
@@ -65,9 +71,9 @@ Recommendation: [Namecheap](https://www.namecheap.com/)
 
 2. [W3 School Bootstrap Documentation](https://www.w3schools.com/bootstrap/default.asp)
 
-3. Override default bootstrap CSS with "!important":
+3. Override default bootstrap CSS with `!important`:
 
-[Order of Specificity](https://css-tricks.com/specifics-on-css-specificity/)
+  [Order of Specificity](https://css-tricks.com/specifics-on-css-specificity/)
 
 Consider the following:
 
