@@ -18,7 +18,7 @@ How to create a portfolio website with Bootstrap!
 
 [Github repo of this template](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio)
 
-[How to deploy to Github Pages](https://pages.github.com/)
+Your page must be deployed to [Github pages](https://pages.github.com/). This is a free hosting service provided by Github. You should name your repository `your-username.github.io`. The result is that your page will be publicly available at http://your-username.github.io.
 
 ## Tips
 
