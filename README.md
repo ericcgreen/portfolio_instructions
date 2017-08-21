@@ -5,12 +5,12 @@ How to create a portfolio website with Bootstrap!
 [What is Bootstrap?](http://getbootstrap.com/)
 
 > Bootstrap is a free front-end framework for faster and easier web development
-
+>
 > Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
-
+>
 > Bootstrap also gives you the ability to easily create responsive designs
-
-**[source](https://www.w3schools.com/bootstrap/bootstrap_get_started.asp)**
+>
+>    **[source](https://www.w3schools.com/bootstrap/bootstrap_get_started.asp)**
 
 [Demo of common Bootstrap website](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)
 
