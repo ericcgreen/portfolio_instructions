@@ -108,8 +108,13 @@ With order of specificity in mind, which below will supersede the other?
 
 
 2. After cloning it down via command line:
+    - Change into the folder
     > `cd startbootstrap-stylish-portfolio`
+
+    - Open the file in the browser
     > `open index.html`
+
+    - Open the file in a text editor (atom)
     > `atom .`
 
 3. Begin editing the index.html file:
@@ -123,10 +128,14 @@ With order of specificity in mind, which below will supersede the other?
     - Aim for the Most Viable Product (MVP). All the bells and whistles can come later. Focus on getting your portfolio at place where it is ready to be shared with potential employers.
     - Have fun and have your portfolio reflect who you are.
 
-4. Be sure to follow the git work flow.
+4. To see the edits you've made in the HTML file take effect:
+    - save in atom
+    - refresh the browser
+
+5. Be sure to follow the git work flow.
     - Add/Commit/Push
 
-5. Deploy your website.
+6. Deploy your website.
     - In the remote repo on github, rename the repo in the settings to `your-username.github.io`.
     - `your-username` should be replaced with your github username. (Be sure you're not in github enterprise)
     - The result is that your page will be publicly available at http://your-username.github.io
