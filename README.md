@@ -108,9 +108,9 @@ With order of specificity in mind, which below will supersede the other?
 
 
 2. After cloning it down via command line:
-    `cd startbootstrap-stylish-portfolio`
-    `open index.html`
-    `atom .`
+    > `cd startbootstrap-stylish-portfolio`
+    > `open index.html`
+    > `atom .`
 
 3. Begin editing the index.html file:
     - Your task is to replace the default filler content of this file with your own personal content.
