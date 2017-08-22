@@ -103,8 +103,8 @@ With order of specificity in mind, which below will supersede the other?
 
 1. To begin using this template, **choose one of the following options to get started:**
     * [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/stylish-portfolio/)
-    * (SSH Key) [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio)
-    * (HTTP key) Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git`
+    * (SSH clone url) [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio)
+    * (HTTP clone url) Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git`
 
 
 2. After cloning it down via command line:
@@ -140,6 +140,20 @@ With order of specificity in mind, which below will supersede the other?
     - `your-username` should be replaced with your github username. (Be sure you're not in github enterprise)
     - The result is that your page will be publicly available at http://your-username.github.io
     - Add/Commit/Push if you need to
+
+7. If you run into a remote error in the command line when pushing
+    - Remove the origin of the remote. Via command line:
+    > `git remote remove origin`
+
+    - Add the correct origin with your SSH clone url. **Replace `your-username` with your github username**
+    > `git remote add origin git@github.com:your-username/your-username.github.io.git`
+
+    **OR**
+
+    - Add origin with HTTP clone url. **Replace `your-username` with your github username**
+    > `git remote add origin https://github.com/your-username/your-username.github.io.git`
+
+8. Add/Commit/Push
 
 ## HTML (Hyper Text Markup Language)
 
