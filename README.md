@@ -113,7 +113,7 @@ With order of specificity in mind, which below will supersede the other?
     `atom .`
 
 3. Begin editing the index.html file:
-    - You're task is to replace the default filler content of this file with your own personal content.
+    - Your task is to replace the default filler content of this file with your own personal content.
     - Import your own images of your projects.
     - Remove sections of the HTML and CSS you don't need.
     - Remember to edit the nav bar when you add/remove sections of the HTML file.
