@@ -99,6 +99,39 @@ With order of specificity in mind, which below will supersede the other?
 
 4. [Resizing images](https://www.w3schools.com/bootstrap/bootstrap_images.asp)
 
+## Instructions
+
+1. To begin using this template, **choose one of the following options to get started:**
+    * [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/stylish-portfolio/)
+    * (SSH Key) [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio)
+    * (HTTP key) Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git`
+
+
+2. After cloning it down via command line:
+    `cd startbootstrap-stylish-portfolio`
+    `open index.html`
+    `atom .`
+
+3. Begin editing the index.html file:
+    - You're task is to replace the default filler content of this file with your own personal content.
+    - Import your own images of your projects.
+    - Remove sections of the HTML and CSS you don't need.
+    - Remember to edit the nav bar when you add/remove sections of the HTML file.
+    - Use the Elements tab in the Chrome Dev tools to find specific elements/tags to target and to change.
+    - Work your way section by section.
+    - This should take at minimum 2 hours.
+    - Aim for the Most Viable Product (MVP). All the bells and whistles can come later. Focus on getting your portfolio at place where it is ready to be shared with potential employers.
+    - Have fun and have your portfolio reflect who you are.
+
+4. Be sure to follow the git work flow.
+    - Add/Commit/Push
+
+5. Deploy your website.
+    - In the remote repo on github, rename the repo in the settings to `your-username.github.io`.
+    - `your-username` should be replaced with your github username. (Be sure you're not in github enterprise)
+    - The result is that your page will be publicly available at http://your-username.github.io
+    - Add/Commit/Push if you need to
+
 ## HTML (Hyper Text Markup Language)
 
 HTML exists to solve the problem of how a rich document can be expressed in plain text.
