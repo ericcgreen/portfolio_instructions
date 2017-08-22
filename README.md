@@ -20,7 +20,7 @@ How to create a portfolio website with Bootstrap!
 
 Your page must be deployed to [Github pages](https://pages.github.com/). This is a free hosting service provided by Github. You should name your repository `your-username.github.io`. The result is that your page will be publicly available at http://your-username.github.io.
 
-## Tips
+#### Tips
 
 * Think about who you want to view your site (potential employers, freelance opportunities, friends). I know it is tempting to make it flashy with tons of jQuery plugins, but the most important thing when designing your site is to make it EASY for your visitors to access the information they want and navigate around the page.
 
@@ -32,7 +32,7 @@ Your page must be deployed to [Github pages](https://pages.github.com/). This is
 
 * You may use Bootstrap or other CSS frameworks. If you do, you're encouraged to start off using it so that you get an idea of how you want your page to look, and then to gradually remove the Bootstrap in favor of CSS you wrote yourself.
 
-## Inspiration
+#### Inspiration
 
 [How to build a data science portfolio](https://www.dataquest.io/blog/build-a-data-science-portfolio/)
 
@@ -48,7 +48,7 @@ Personal websites from some previous DSI grads:
 
 You can also Google "data scientist portfolio website" for more ideas :)
 
-## Domains (Optional)
+#### Domains (Optional)
 
 If you'd like, you can purchase a domain and then "point" the domain to your Github Pages repo. Here are instructions on how to do so:
 
@@ -56,7 +56,7 @@ https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
 
 Recommendation: [Namecheap](https://www.namecheap.com/)
 
-## Resources
+#### Resources
 
 * [Font Awesome](http://fontawesome.io/icons/)
 * [Google Fonts](https://fonts.google.com/)
@@ -64,7 +64,7 @@ Recommendation: [Namecheap](https://www.namecheap.com/)
 * [Favicon](http://www.favicon-generator.org/)
 * [Logo Creator](https://www.canva.com/)
 
-## Tricks
+#### Tricks
 
 1. Open links in new tabs:
 
@@ -106,7 +106,7 @@ That is to say what are the parts of the document, what role does each part serv
 
 HTML expresses the **structure and semantics** of a document in plain text.
 
-### Elements
+#### Elements
 
 ![Parts of an Element](https://mdn.mozillademos.org/files/9347/grumpy-cat-small.png)
 
@@ -179,7 +179,6 @@ Other examples of metadata include links to external stylesheets (more later) an
 
 The `body` element contains the information actually presented to the user; it represents the content of the document.
 
-
 #### Headings
 
 The `h1` - `h6` tags are for headings and subheadings.
@@ -237,14 +236,18 @@ Images require two attributes, a `src` with a URL for an image, and an `alt` tag
 
 The url can be any address but generally we want to manage our own assets.
 
-### CSS Rules
+## CSS (Cascading Style Sheets)
+
+CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files.
+
+#### CSS Rules
 
 CSS styles are a series of **rules** or **rulesets**.
 A rule is a combination of a **selector** and a set of **declarations**.
 
 ![Anatomy of a CSS Ruleset](https://mdn.mozillademos.org/files/9461/css-declaration-small.png)
 
-## Selector
+#### Selector
 
 A selector is a pattern used to match element to which the rule should apply.
 As shown this can be an element.
@@ -252,14 +255,14 @@ Very commonly we add `class` or `id` attributes to elements mark for targeting b
 
 Selectors can be combined and related and there are many more types of [selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors).
 
-## Declaration
+#### Declaration
 
 A declaration has two parts, a property and a value to which that property should be set.
 In the example above, the property is `color` and the property value is `red`.
 There must be a colon separating each property from its property value and a semicolon at the end of the declaration.
 By adding just that rule to our CSS and refreshing the page in the browser, we can see the effect of the rule (though you have to scroll past the massive image -- we'll fix that shortly).
 
-### Properties
+#### Properties
 
 Like HTML elements, there are tons of css properties and it is impractical to memorize them.
 Again we're looking for the 20% that gets us 80% of the way.
@@ -270,7 +273,7 @@ Again we're looking for the 20% that gets us 80% of the way.
 There is a ton we can do with the background.
 Generally we will use a [**hex-triplet**](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet) to describe colors.
 
-## Importing Fonts
+#### Importing Fonts
 
 Google hosts a massive repository of fonts that can be imported for use on your page.
 
